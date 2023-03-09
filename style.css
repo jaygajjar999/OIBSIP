@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(bg.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  max-width: auto;
+  padding: 20px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-menu a {
+  color: #fff;
+  font-size: 13px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  padding: 12px 15px;
+  border-radius: 2px;
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: 0.4s;
+
+
+}
+
+.navbar-menu a:hover {
+  background-color: #fff;
+  color: black;
+}
+
+.description {
+  position: absolute;
+  top: 50%;
+  left: 28%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  padding: 0 70px;
+  width: 100%;
+  text-align: center;
+}
+
+.description h2 {
+  font-size: 30px;
+  font-family: 'Great Vibes', sans-serif;
+  font-weight: 100;
+  color: #fff;
+  letter-spacing: 2px;
+  line-height: 50px;
+}
+
+.description h1 {
+  font-size: 35px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  line-height: 70px;
+}
+
+.description p {
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  color: #fff;
+  letter-spacing: 2px;
+  line-height: 25px;
+  margin-bottom: 30px;
+}
+
+.description button {
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  color: #fff;
+  background: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 12px 20px;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  outline: none;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.description button:hover {
+  background: #fff;
+  color: #000;
+}
+
+
+.footer {
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+  padding-top: 625px;
+
+
+}
+
+/* footer section styling */
+footer {
+
+  padding-top: 0px;
+  color: whitesmoke;
+  text-align: center;
+  font-family: 'Maven Pro', sans-serif;
+  font-family: 'Poppins', sans-serif;
+
+
+}
+
+.icons .fa {
+  color: whitesmoke;
+  margin: 0 13px;
+  cursor: pointer;
+  /* padding: 0px 0; */
+
+}
+
+.fa-heart-o {
+  color: whitesmoke;
+}
